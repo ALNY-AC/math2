@@ -1,0 +1,25 @@
+#index {
+    padding-top: 20px;
+    .icon {}
+    .time-box {
+        font-size: 20px;
+    }
+}
+
+#index /deep/ {
+    .el-card {
+        margin-bottom: 20px;
+    }
+    .error {
+        .el-input__inner {
+            background-color: #F56C6C;
+            color: #fff;
+        }
+    }
+    .success {
+        .el-input__inner {
+            background-color: #67C23A;
+            color: #fff;
+        }
+    }
+}
