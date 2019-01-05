@@ -47,7 +47,7 @@
 
       <el-form>
         <el-row :gutter="20">
-          <el-col :xs="24" :span="6" v-for="item in subjectList">
+          <el-col :xs="24" :span="6" v-for="(item,i) in subjectList" :key="item.ID">
             <el-form-item>
               <span slot="label" :class="[{'text-red':item.state===false},{'text-success':item.state===true}]">
                 {{`${item.x}${item.type =='/' ?'÷':item.type}${item.y}`}}
