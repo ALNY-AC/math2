@@ -29,7 +29,6 @@
         <span class="time-item">{{m | time}}</span>
         <span class="time-icon">：</span>
         <span class="time-item">{{s | time}}</span>
-
       </div>
 
       <el-button @click="build">开始生成题目</el-button>

@@ -1,0 +1,19 @@
+.panel {
+    border: solid 1px #ddd;
+    background-color: #ffffff;
+    border-radius: 5px;
+    .panel-head {
+        padding: 15px;
+        border-bottom: 1px solid #ddd;
+    }
+    .panel-body {
+        padding: 20px 15px;
+    }
+    .panel-footer {
+        border-top: 1px solid #ddd;
+        padding: 15px;
+        color: #777;
+    }
+}
+
+.panel /deep/ {}
