@@ -1,4 +1,7 @@
 module.exports = {
+    router: {
+        base: '/math2/dist/',
+    },
     mode: 'spa',
     srcDir: 'src/',
     build: {
