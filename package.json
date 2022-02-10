@@ -17,7 +17,7 @@
     "@vue/cli-plugin-babel": "^3.2.0",
     "less": "^3.12.2",
     "less-loader": "^7.0.1",
-    "node-sass": "^4.14.1",
+    "node-sass": "^7.0.0",
     "sass-loader": "^10.0.2"
   }
 }
